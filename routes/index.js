@@ -2,7 +2,7 @@
 301235021
 8th June 2023*/
 var express = require('express');
-var router = express.Router();
+var router = express();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
