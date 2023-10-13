@@ -4,6 +4,10 @@
 var express = require('express');
 var router = express();
 
+router.set('view engine', 'ejs');
+
+app.use(express.static('public'));
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home'});
