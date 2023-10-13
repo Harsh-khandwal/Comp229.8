@@ -6,7 +6,7 @@ var router = express();
 
 router.set('view engine', 'ejs');
 
-app.use(express.static('public'));
+router.use(express.static('public'));
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
