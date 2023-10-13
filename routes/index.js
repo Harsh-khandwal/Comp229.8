@@ -35,4 +35,8 @@ router.get('/contact', function(req, res, next) {
 });
 
 
+router.listen('3000', () => {
+  console.log('test working fine');
+})
+
 module.exports = router;
