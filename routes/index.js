@@ -1,6 +1,4 @@
-/*Manraj Singh Grewal
-301235021
-8th June 2023*/
+
 var express = require('express');
 var router = express();
 
